@@ -61,6 +61,7 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
+- Title Logo [LogoLynx](https://www.logolynx.com/)
 
 ## 📝 License
 
