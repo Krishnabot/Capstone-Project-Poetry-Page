@@ -62,7 +62,7 @@ a {
 }
 
 .hamburger.active {
-  z-index: 10;
+  z-index: 1;
 }
 
 .bar {
@@ -89,4 +89,22 @@ a {
 
 .hamburger.active .bar:last-child {
   transform: translateY(-8px) rotate(-45deg);
+}
+
+.home-page {
+  background-color: rgb(245,245,245);
+}
+p{
+  color: black;
+}
+
+.program {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.program-info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }

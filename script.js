@@ -16,3 +16,5 @@ document.querySelectorAll(".nav-link").forEach((n) =>
     navLink.classList.remove("active");
   })
 );
+
+/*  ---------Dynamic Html for home page ----------*/
