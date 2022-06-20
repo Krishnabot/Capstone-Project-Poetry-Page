@@ -2,33 +2,60 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
+
 }
 
 a {
   text-decoration: none;
 }
+p{
+  font-family:  "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
 
 /* --------Mobile--------*/
 /*---------Nav Menu------*/
-
-.top-nav {
-  display: none;
+.landingpage-wrap {
+  background-image: url('./src/mobile_intro_bg.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: auto 100%;
+  height: 100%;
 }
+
 .nav-bar {
+height: 6rem;
+  }
+
+.bottom-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+.top-nav {
+  display: none;
+}
 
-.nav-bar.active {
+.bottom-nav.active {
   height: 100%;
   width: 100%;
   margin-top: 0;
 }
 
-.logo {
+.logo-wrap {
   display: none;
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0;
+
 }
+
+.logo > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 30%;
+  opacity: 0.8;
+  }
 
 .nav-menu {
   list-style: none;
@@ -37,7 +64,6 @@ a {
   left: -100%;
   width: 100%;
   transition: 0.4s;
-  background-color: rgb(85,85,85, 50%);
   height: 100%;
   padding-top: 100px;
   backdrop-filter: blur(5px);
@@ -47,28 +73,32 @@ a {
   left: 0;
   top: 0;
   text-align: center;
+  background-color: rgb(92, 94, 94, 60%);
 }
 
 .nav-link {
-  font-size: 40px;
-  color: #fff;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
   margin-bottom: 20px;
 }
 
 .hamburger {
   display: block;
-  margin: 1rem;
+  margin: 2rem;
   float: left;
 }
 
 .hamburger.active {
   z-index: 1;
 }
+.hamburger.active {
+
+}
 
 .bar {
   display: block;
-  width: 25px;
-  height: 3px;
+  width: 30px;
+  height: 5px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -84,27 +114,155 @@ a {
 }
 
 .hamburger.active .bar:first-child {
-  transform: translateY(8px) rotate(45deg);
+  transform: translateY(10px) rotate(45deg);
 }
 
 .hamburger.active .bar:last-child {
-  transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-10px) rotate(-45deg);
+}
+.welcome-text>p:first-child {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 16px;
+  color: rgb(244, 109, 14);
+  padding-left: 3rem;
+  padding-top: 3rem;
 }
 
-.home-page {
-  background-color: rgb(245,245,245);
-}
-p{
-  color: black;
+.welcome-text>h1 {
+  font-size: 15vw;
+  font-weight: 800;
+  padding-left: 3rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  text-transform: uppercase;
+  color: rgb(239, 6, 6);
+  background-image: url('https://cdn.aarp.net/content/dam/aarp/entertainment/books/2021/12/1140-flying-books-illustration.jpg');
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(246, 66, 1, 0.6);
 }
 
-.program {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+.event-messege {
+    height: auto;
+    text-align: justify;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: rgb(242, 242, 246);
+    margin: 1rem 2rem;
+    font-size: 21px;
+    line-height: 2;
+    padding: 1rem 2rem;
+}
+
+.event-info {
+    text-align: center;
+    width: 100%;
+    font-size: 1.125em;
+    margin: 0px;
+    height: 95px;
+    padding-top: 40px;
+    padding-bottom: 9rem;
+}
+
+.event-info>p:first-child{
+  font-family: "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  color: rgb(87, 87, 87)
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.event-info > p:last-child{
+  font-size: 24px;
+  padding: 1rem 2rem;
+}
+
+.program{
+  background-image: url("./src/program-background-pattern_bg.png");
+  background-repeat: repeat;
+  background-color: rgb(40, 42, 50);
+}
+
+
+.main-program {
+  padding: 3rem 0;
+  color: rgb(255, 255, 255);
+    text-align: center;
+
+
+}
+.main-program > p {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.main-program > hr {
+  width: 10%;
+  border-top: 2px solid rgb(239, 81, 60);
+  margin: auto;
+}
+
+.program-info-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0 1rem 0 1rem ;
 }
 
 .program-info {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 2fr 3fr 5fr;
+  color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.1);
+  height: 100px;
+  padding: 0 2rem 0 2rem;
   gap: 10px;
 }
+
+/*
+.program-info > p {
+    margin-top: 1rem;
+}
+*/
+.program-info > img ,
+.program-info > h4 ,
+.program-info > p {
+  display: flex;
+  align-items: center;
+}
+
+.program-info > img{
+ margin-top: 20px;
+}
+.program-info > h4 {
+  color: rgb(225,80,61);
+  font-size: 25px;
+}
+.program-info > p{
+  font-size: 15px;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.join-btn {
+  height: 100px;
+  width:80%;
+ background-color: rgb(255,79,56);
+ color : rgb(253,234,230);
+ font-size: 25px;
+
+
+}
+
+
+
