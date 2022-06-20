@@ -150,10 +150,9 @@ height: 6rem;
     text-align: justify;
     border: 4px solid rgb(255, 255, 255);
     background-color: rgb(242, 242, 246);
-    margin: 1rem 2rem;
+    margin: 1rem;
     font-size: 21px;
-    line-height: 2;
-    padding: 1rem 2rem;
+    padding: 1rem ;
 }
 
 .event-info {
@@ -261,8 +260,71 @@ height: 6rem;
  color : rgb(253,234,230);
  font-size: 25px;
 
-
 }
 
+.speaker-list-wrap{
+  padding: 2rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 60px;
+}
+
+.speaker-list {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
+}
+
+.speaker-img {
+  width: 180px;
+  height: 180px;
+}
+
+.speaker-name {
+  font-size: 25px;
+  font-weight: bold;
+}
+.speaker-info {
+  color: red;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 9px;
+}
+
+.sm-line {
+  border: 2px solid rgb(218, 218, 218);
+  border-radius: 5px;
+  width: 30px;
+  margin:20px auto 20px 0
+}
+
+.speaker-detail {
+  font-size: 20px;
+}
+
+.mobile-speaker-more{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  height: 60px;
+  width: 95%;
+  border:1px solid grey;
+  margin: 5rem auto 5rem auto;
+  border-radius: 5px;
+  
+}
+
+.mobile-speaker-more > P {
+  padding-top: 1rem;
+  font-size: 20px;
+
+}
+.mobile-speaker-more > i {
+  padding-top: 1rem;
+  margin-left: 1rem;
+  font-size: larger;
+  color: rgb(255, 166, 0);
+}
 
 
