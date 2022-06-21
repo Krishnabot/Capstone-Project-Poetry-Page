@@ -394,7 +394,19 @@ height: 6rem;
   margin: auto;
   font-size: 18px;
 }
-
+.speaker-selection-img-cont{
+  border: 1px solid black;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin : 20px auto 40px auto;
+}
+.line {
+color: black;
+margin-bottom: 30px;
+}
 .past-slams{
   display: flex;
   flex-direction: column;
@@ -443,5 +455,73 @@ height: 6rem;
     color: white;
   font-size: 20px;
 
+}
+
+.partner-img img {
+height: 80px;
+width: 80px;
+}
+
+.partner-img {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 3rem;
+  background-color: rgb(57, 57, 57);
+}
+
+.partner-img > div:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.partner-img > div:last-child {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 9rem 1rem 9rem;
+  justify-content: space-between;
+} 
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 5rem 2rem 5rem;
+}
+
+footer > div > p {
+  text-align: center;
+  width: 70%;
+  font-size: 17px;
+  float: right;
+}
+footer > div > p:last-child {
+display: none;
+}
+
+
+/* ------For desktop----------*/
+
+@media (min-width: 768px) {
+  body {
+    margin: auto;
+  }
+
+.top-nav {
+  display: block;
+  background-color: #272A31;
+  width: 100%;
+
+}
+
+.top-nav > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+.top-nav > ul > li > a {
+  color: rgb(0, 0, 0);
+}
 }
 
