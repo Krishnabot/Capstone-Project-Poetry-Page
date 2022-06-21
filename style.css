@@ -51,7 +51,7 @@ height: 6rem;
 
 }
 
-.logo > img {
+.logo {
   height: 50px;
   width: 50px;
   border-radius: 30%;
@@ -369,4 +369,29 @@ height: 6rem;
   color: rgb(255, 166, 0);
 }
 
+.speaker-selection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
 
+.speaker-selection > div > p {
+  font-size: 22px;
+  font-weight: bold;
+  width: 40%;
+  margin: auto;
+}
+
+.speaker-selection  hr {
+  width: 5%;
+  border-top: 2px solid rgb(239, 81, 60);
+  margin: auto;
+}
+
+.speaker-selection > div:nth-child(3){
+  width: 50%;
+  margin: auto;
+  font-size: 18px;
+}
+}
