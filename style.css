@@ -19,9 +19,10 @@ p{
   background-image: url('./src/mobile_intro_bg.png');
   background-repeat: no-repeat;
   background-position: left top;
-  background-size: auto 100%;
+  background-size: cover;
   height: 100%;
 }
+
 
 .nav-bar {
 height: 6rem;
@@ -144,6 +145,27 @@ height: 6rem;
   color: rgba(246, 66, 1, 0.6);
 }
 
+.about-welcome-text>p {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 16px;
+  color: rgb(244, 109, 14);
+  padding-left: 3rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.about-welcome-text>h1 {
+  font-size: 10vw;
+  font-weight: 600;
+  padding-left: 3rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  text-transform: uppercase;
+  color: rgb(239, 6, 6);
+  text-align: center;
+}
+
 
 .event-messege {
     height: auto;
@@ -173,6 +195,26 @@ height: 6rem;
   color: rgb(87, 87, 87)
     margin-bottom: 0.5rem;
     letter-spacing: 1px;
+}
+.contact-info {
+  text-align: center;
+  margin: auto 1rem 5rem 1rem;
+  padding-bottom: 2rem;
+}
+
+.contact-info > p {
+  font-size: 20px;
+  padding: 1rem 2rem;
+  line-height: 30px;
+  width: 70%;
+  margin: auto;
+}
+.contact-info > a{
+  text-decoration:underline;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .event-info > p:last-child{
