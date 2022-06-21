@@ -383,7 +383,7 @@ height: 6rem;
   margin: auto;
 }
 
-.speaker-selection  hr {
+.sml-line-br {
   width: 5%;
   border-top: 2px solid rgb(239, 81, 60);
   margin: auto;
@@ -394,4 +394,54 @@ height: 6rem;
   margin: auto;
   font-size: 18px;
 }
+
+.past-slams{
+  display: flex;
+  flex-direction: column;
+  text-align: centre;
+  gap: 20px;
 }
+.past-slams div {
+  text-align: center;
+}
+
+.past-slams > div:first-child > p {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.past-slams > div:nth-child(3) > p{
+  font-size: 15px;
+  font-weight: 500;
+}
+.past-slams > div:last-child{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.past-slams > div:last-child > div {
+  background:  linear-gradient(rgba(42, 32, 32, 0.45), 
+      rgba(0, 0, 0, 0.45)),
+      url(./src/past-slams.png) no-repeat;
+      background-size: cover;
+  height: 300px;
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+
+.past-slams > div:last-child > div > p:first-child {
+  color: white;
+  font-size: 70px;
+}
+.past-slams > div:last-child > div > p:last-child {
+    color: white;
+  font-size: 20px;
+
+}
+
