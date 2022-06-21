@@ -131,7 +131,7 @@ height: 6rem;
 }
 
 .welcome-text>h1 {
-  font-size: 15vw;
+  font-size: 120px;
   font-weight: 800;
   padding-left: 3rem;
   padding-right: 2rem;
@@ -506,22 +506,78 @@ display: none;
   body {
     margin: auto;
   }
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+  }
 
 .top-nav {
   display: block;
   background-color: #272A31;
   width: 100%;
-
+  z-index: 100;
+  
 }
 
 .top-nav > ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
   float: right;
+  margin-right: 2em;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .top-nav > ul > li > a {
-  color: rgb(0, 0, 0);
+color: #fff;
+ margin-left: 1em;
+font-size: 22px;
+
 }
+.hamburger {
+  display: none;
+}
+.logo-wrap {
+  display: block;
+  width: auto;
+  margin: 0;
+  text-align: left;
+  text-align: center;
+}
+
+.bottom-nav {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding-top: 1em;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  padding-top: 3em;
+}
+.nav-menu {
+   list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    left: 0;
+    width: auto;
+    padding-top: 5px;
+    padding-left: 8em;
+    text-align: center;
+}
+.nav-link {
+  font-size: 23px;
+}
+.nav-menu> li:last-child > a {
+  border: 3px solid #ec5242;
+  padding: 5px;
+}
+
+.home-page-content {
+  padding-left: 4em;
+  padding-top: 8em;
+  }
+
 }
 
