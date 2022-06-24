@@ -105,3 +105,39 @@ partnerArray = `
 `;
 
 document.getElementsByClassName("partner-wrap")[0].innerHTML += partnerArray;
+
+const programData = [
+  {
+    program_icon: "./src/program-intro-icon.png",
+    program_event: "Introduction",
+    event_detail: "Introduction about the event and the poets",
+  },
+  {
+    program_icon: "./src/program-exibition-icon.png",
+    program_event: "Exibition",
+    event_detail:
+      "Informative session about invited poets works and publication",
+  },
+  {
+    program_icon: "./src/program-workshop-icon.png",
+    program_event: "Workshop",
+    program_event: "Try express your ideas. Learn about structure and meter.",
+  },
+  {
+    program_icon: "./src/program-pannel-discussion-icon.png",
+    program_event: "Pannel discussion",
+    event_detail: "Discussion about contemporary poetry and its influence",
+  },
+];
+let dynamicprogramContent = "";
+for (let i = 0; i < programData.length; i += 1) {
+  dynamicProgramContent = `
+                     <div class="program-info">
+                <img src="${programData[i].program_icon}" alt = "Introduction"">
+                    <h4>${programData[i].program_event}</h4>
+                    <p>${programData[i].event_detail}</p>
+                    </div>
+  `;
+  document.getElementsByClassName("program-info-wrap")[0].innerHTML +=
+    dynamicProgramContent;
+}

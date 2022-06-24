@@ -457,6 +457,16 @@ margin-bottom: 30px;
 
 }
 
+.sponsers {
+  display: none;
+}
+.mobile-partner {
+  display: block;
+  height: 100px;
+  width: 50px;
+  border: 2px solid black;
+}
+
 .partner-img img {
 height: 80px;
 width: 80px;
@@ -635,6 +645,18 @@ font-size: 22px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: auto 4em 0 4em;
+  }
+
+  .mobile-speaker-more{
+    display: none;
+  }
+
+  .mobile-partner {
+    display: none;
+  }
+
+  .sponsers {
+    display: block;
   }
 
 }
