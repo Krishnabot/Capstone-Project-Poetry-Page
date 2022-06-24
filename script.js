@@ -80,3 +80,28 @@ for (let i = 0; i < speakerData.length; i += 1) {
   document.getElementsByClassName("speaker-list-wrap")[0].innerHTML +=
     dynamicSpeakerContent;
 }
+
+let partnerArray = "";
+partnerArray = `
+    <div class="partner">
+       
+            <div class="main-program">Partner</div>
+            <div>
+                <hr class="sml-line-br">
+            </div>
+            <div class="partner-img">
+            <div>
+                <img src="./src/partner-img-apple.png">
+                <img src="./src/partner-img-pepsi.png">
+                <img src="./src/partner-img-twitter.png">
+            </div>
+            <div>
+                <img src="./src/partner-img-cocacola.png">
+                <img src="./src/partner-img-macdonald.png">
+            </div>
+        </div>
+        
+    </div>
+`;
+
+document.getElementsByClassName("partner-wrap")[0].innerHTML += partnerArray;
