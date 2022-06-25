@@ -18,42 +18,42 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 /*  ---------Dynamic Html for home page ----------*/
 const speakerData = [
   {
-    speaker_img: './src/speaker-1.jpeg',
-    speaker_name: 'Walt Whitman',
+    speaker_img: './src/speaker_01.png',
+    speaker_name: 'Walt Whitmaßn',
     speaker_info: 'an American poet, essayist and journalist. A humanist',
     speaker_detail:
       'he was a part of the transition between transcendentalism and realism. Whitman is among the most influential poets in the American canon',
   },
   {
-    speaker_img: './src/speaker-2.jpeg',
+    speaker_img: './src/speaker_02.png',
     speaker_name: 'Allen Ginsberg',
     speaker_info: 'an American poet, essayist and writer. A Rebel',
     speaker_detail:
       'Ginsberg is best known for his poem "Howl", in which he denounced what he saw as the destructive forces of capitalism and conformity',
   },
   {
-    speaker_img: './src/speaker-1.jpeg',
+    speaker_img: './src/speaker_03.png',
     speaker_name: 'Walt Whitman',
     speaker_info: 'an American poet, essayist and journalist. A humanist',
     speaker_detail:
       'he was a part of the transition between transcendentalism and realism. Whitman is among the most influential poets in the American canon',
   },
   {
-    speaker_img: './src/speaker-2.jpeg',
+    speaker_img: './src/speaker_04.png',
     speaker_name: 'Allen Ginsberg',
     speaker_info: 'an American poet, essayist and writer. A Rebel',
     speaker_detail:
       'Ginsberg is best known for his poem "Howl", in which he denounced what he saw as the destructive forces of capitalism and conformity',
   },
   {
-    speaker_img: './src/speaker-1.jpeg',
+    speaker_img: './src/speaker_05.png',
     speaker_name: 'Walt Whitman',
     speaker_info: 'an American poet, essayist and journalist. A humanist',
     speaker_detail:
       'he was a part of the transition between transcendentalism and realism. Whitman is among the most influential poets in the American canon',
   },
   {
-    speaker_img: './src/speaker-2.jpeg',
+    speaker_img: './src/speaker_06.png',
     speaker_name: 'Allen Ginsberg',
     speaker_info: 'an American poet, essayist and writer. A Rebel',
     speaker_detail:
