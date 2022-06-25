@@ -25,7 +25,7 @@
 [Live Demo Link](https://krishnabot.github.io/Capstone-Project-Poetry-Page/)
 
 ## Visulal Explaination Of the project 
-- Video presentation about the project [Video](https://www.loom.com/share/6b2c776cf045435f99959cf5e7ea129d)
+- Video presentation about the project [Video](https://www.loom.com/share/f9d227398f3445c4937a816072314de1)
 ## Getting Started
 
 - To run this project a local machine follw the example steps.
