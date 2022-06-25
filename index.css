@@ -48,8 +48,8 @@ height: 6rem;
 }
 
 .logo {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   border-radius: 30%;
   opacity: 0.8;
   }
@@ -117,7 +117,7 @@ height: 6rem;
 .hamburger.active .bar:last-child {
   transform: translateY(-10px) rotate(-45deg);
 }
-.welcome-text>p:first-child {
+.welcome-text>p {
   color: #ec5242;
   font-family: Lato, sans-serif;
   font-size: 40px;
@@ -197,8 +197,11 @@ height: 6rem;
   letter-spacing: 1px;
 }
 .event-info>p:last-child{
+  font-family: Lato, sans-serif;
   margin-left: -40px;
+  font-size: 25px;
 }
+
 .contact-info {
   text-align: center;
   margin: auto 1rem 5rem 1rem;
@@ -490,26 +493,6 @@ height: 80px;
 width: 80px;
 }
 
-.partner-img {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-top: 3rem;
-  background-color: rgb(57, 57, 57);
-}
-
-.partner-img > div:first-child {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.partner-img > div:last-child {
-  display: flex;
-  flex-direction: row;
-  padding: 1rem 9rem 1rem 9rem;
-  justify-content: space-between;
-} 
-
 
 footer > div > p {
   text-align: center;
@@ -534,6 +517,7 @@ display: none;
   }
 
 .top-nav {
+  font-family: Lato, sans-serif;
   display: block;
   background-color: #272A31;
   width: 100%;
@@ -545,14 +529,14 @@ display: none;
   list-style: none;
   display: flex;
   float: right;
-  margin-right: 2em;
+  margin-right: 5em;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 .top-nav > ul > li > a {
 color: #fff;
- margin-left: 1em;
-font-size: 22px;
+margin-left: 1em;
+font-size: 16px;
 
 }
 .hamburger {
@@ -573,8 +557,6 @@ font-size: 22px;
   background-color: #fff;
   position: fixed;
   width: 100%;
-  height: 50px;
-  padding-top: 3em;
 }
 .nav-menu {
    list-style: none;
@@ -591,9 +573,16 @@ font-size: 22px;
 .nav-link {
   font-size: 23px;
 }
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .nav-menu> li:last-child > a {
   border: 3px solid #ec5242;
   padding: 5px;
+  width: 100px;
 }
 .bottom-nav {
   position: relative;
@@ -643,11 +632,14 @@ font-size: 22px;
   .program-info > p {
     text-align: center;
   }
+
   .btn > a {
     font-family: Lato, sans-serif;
-    font-size: 22px;
+    font-size: 19px;
     color: white;
     text-decoration: underline;
+    display: block;
+    text-transform: uppercase;
   }
   .join-btn {
     display: none;
@@ -668,8 +660,29 @@ font-size: 22px;
   }
 
   .sponsers {
-    display: block;
-  }
+  display: block;
+  background-color: rgb(57, 57, 57);
+}
+
+.partner-txt {
+  font-size: 25px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.partner-img {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  padding-top: 20px;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+}
+ .partner-img > div: {
+  
+ }
 
 }
 
