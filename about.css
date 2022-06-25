@@ -231,11 +231,6 @@ height: 6rem;
 }
 
 
-
-footer {
-  display: none;
-}
-
 .speaker-selection {
   display: flex;
   flex-direction: column;
@@ -391,6 +386,8 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   padding: 2rem;
+  width: 80%;
+  margin: auto;
 }
 
 footer > div > p {
@@ -398,6 +395,7 @@ footer > div > p {
   font-size: 17px;
   float: right;
   padding-right: 1rem;
+  font-family: Lato, sans-serif;
 }
 footer > div > p:last-child {
 display: none;
@@ -478,75 +476,43 @@ font-size: 22px;
 .bottom-nav {
   position: relative;
 }
+.about-welcome-text > p {
+  display: none;
+}
+.past-slams > div:last-child {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.sponsers {
+  display: none;
+}
+footer {
+  background-color: #272A31;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 30%;
+  padding-left: 20rem;
+  margin: none;
 
-.home-page-content {
-  padding-left: 4em;
-  padding-top: 8em;
-  width: 70%;
-  }
+}
+footer > div {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20rem;
+}
+ footer > div> p{
+  display: block;
+  float: right;
+  text-align: start;
+ }
+footer > div> p:last-child{
+  display: block;
 
-  .event-messege {
-    margin-right: 10rem;
-  }
-
-  .event-info {
-    text-align: start;
-
-  }
-  .event-info >p{
-  font-family: cocogoose , sans-serif;
-
-  }
-
-  .program-info-wrap {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    height: 15em;
-  }
-
-  .program-info {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: none;
-    height: 12em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    width: 15em;
-    margin: auto;
-  }
-  .program-info > img,
-  .program-info > h4,
-  .program-info > p {
-    margin: auto;
-  }
-  .program-info > p {
-    text-align: center;
-  }
-  .btn > a {
-    font-family: Lato, sans-serif;
-    font-size: 22px;
-    color: white;
-    text-decoration: underline;
-  }
-  .join-btn {
-    display: none;
-  }
-
-  .speaker-list-wrap {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: auto 4em 0 4em;
-  }
-
-  .mobile-speaker-more{
-    display: none;
-  }
-
-  .sponsers {
-    display: block;
-    
-  }
+}
 
 }
 
