@@ -362,7 +362,7 @@ height: 6rem;
 }
 
 .mobile-speaker-more{
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: center;
   justify-items: center;

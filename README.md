@@ -1,41 +1,45 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# SLAM POETRY JAM 2022
 
-> Description the project.
+- A responsive  Website containing about and home page of POETRY SLAM 2020
+- Built for Microverse Module one Capstone Project.
+- It has home and about page.
+- Flex box grid and fload is used to align Items.
+- backgroung image and color used to custumise.
+- When the user clicks the hamburger button, the mobile menu appears.
+- When the user clicks the close (X) button, the mobile menu disappears.
+- When the user clicks any of the mobile menu options, the mobile menu disappears.
+- When the user clicks home or about  of the mobile menu options, a correct part of the page is displayed.
+- speaker list and program info is created dynamically using the information stored in that JavaScript object.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://krishnabot.github.io/Capstone-Project-Poetry-Page/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+- To run this project a local machine follw the example steps.
 
 ### Prerequisites
-
-### Setup
+- git
+- Code Editor
 
 ### Install
-
+- clone repo 
 ### Usage
-
-### Run tests
+- Free to use and modify  
 
 ### Deployment
-
+- Diployed in git hub pages. 
 
 ## Author
 
