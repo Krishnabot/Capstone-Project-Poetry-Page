@@ -24,7 +24,8 @@
 
 [Live Demo Link](https://krishnabot.github.io/Capstone-Project-Poetry-Page/)
 
-
+## Visulal Explaination Of the project 
+- Video presentation about the project [Video](https://www.loom.com/share/6b2c776cf045435f99959cf5e7ea129d)
 ## Getting Started
 
 - To run this project a local machine follw the example steps.
@@ -62,6 +63,7 @@ Give a ⭐️ if you like this project!
 - imagess: [ShutterStock](https://www.shutterstock.com/)
 - Title Logo [LogoLynx](https://www.logolynx.com/)
 - stackoverflow
+- Video Tool [Loom](https://www.loom.com)
 
 ## 📝 License
 
