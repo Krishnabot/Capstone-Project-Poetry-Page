@@ -510,12 +510,6 @@ width: 80px;
   justify-content: space-between;
 } 
 
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 2rem 5rem 2rem 5rem;
-}
 
 footer > div > p {
   text-align: center;

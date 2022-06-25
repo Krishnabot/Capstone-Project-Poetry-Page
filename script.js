@@ -96,7 +96,7 @@ const programData = [
   {
     program_icon: "./src/program-workshop-icon.png",
     program_event: "Workshop",
-    program_event: "Try express your ideas. Learn about structure and meter.",
+    event_detail: "Try express your ideas.",
   },
   {
     program_icon: "./src/program-pannel-discussion-icon.png",
