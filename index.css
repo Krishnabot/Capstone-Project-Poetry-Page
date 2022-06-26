@@ -528,6 +528,7 @@ footer > div > p:last-child {
   .nav-bar {
     display: flex;
     flex-direction: column;
+    height: 0%;
   }
 
   .top-nav {
