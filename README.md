@@ -1,41 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# SLAM POETRY JAM 2022
 
-> Description the project.
+- A responsive  Website containing about and home page of POETRY SLAM 2020
+- Built for Microverse Module one Capstone Project.
+- It has home and about page.
+- Flex box grid and fload is used to align Items.
+- backgroung image and color used to custumise.
+- When the user clicks the hamburger button, the mobile menu appears.
+- When the user clicks the close (X) button, the mobile menu disappears.
+- When the user clicks any of the mobile menu options, the mobile menu disappears.
+- When the user clicks home or about  of the mobile menu options, a correct part of the page is displayed.
+- speaker list and program info is created dynamically using the information stored in that JavaScript object.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://krishnabot.github.io/Capstone-Project-Poetry-Page/)
 
-
+## Visulal Explaination Of the project 
+- Video presentation about the project [Video](https://www.loom.com/share/f9d227398f3445c4937a816072314de1)
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+- To run this project a local machine follw the example steps.
 
 ### Prerequisites
-
-### Setup
+- git
+- Code Editor
 
 ### Install
-
+- clone repo 
 ### Usage
-
-### Run tests
+- Free to use and modify  
 
 ### Deployment
-
+- Diployed in git hub pages. 
 
 ## Author
 
@@ -48,19 +53,17 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- design : [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- imagess: [ShutterStock](https://www.shutterstock.com/)
+- Title Logo [LogoLynx](https://www.logolynx.com/)
+- stackoverflow
+- Video Tool [Loom](https://www.loom.com)
 
 ## 📝 License
 
