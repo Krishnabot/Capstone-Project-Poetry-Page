@@ -144,7 +144,7 @@ a {
 
 .about-welcome-text > h1 {
   font-family: cocogoose, sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 600;
   padding-left: 3rem;
   padding-right: 2rem;
@@ -405,7 +405,7 @@ footer > div > p:last-child {
   .nav-bar {
     display: flex;
     flex-direction: column;
-    box-shadow: rgb(0 0 0 / 30%) 0px 2px 8px 0px;
+    box-shadow: rgb(0 0 0 / 30%) 0 2px 8px 0;
     height: 0%;
   }
 
@@ -485,19 +485,21 @@ footer > div > p:last-child {
     background-repeat: repeat-x;
     background-position: left top;
     background-size: cover;
-    height:100%;
+    height: 100%;
     padding-top: 10rem;
-}
- .landingpage-wrap > div >div {
+  }
+
+  .landingpage-wrap > div > div {
     display: flex;
     flex-direction: column;
     gap: 20px;
- }
+  }
+
   .about-welcome-text > p {
     display: none;
   }
 
-  .event-messege{
+  .event-messege {
     width: 70%;
     margin: auto;
   }
